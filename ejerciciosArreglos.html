@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" href="bootstrap.css"/>
+</head>
+<body>
+<div class="container">
+<h1>Ejercicios- Interacciones de Arreglos con funciones</h1>
+<div class="form-group">
+<label for="usr">Ingresa una cadena de numeros separados por coma "," (sin espacio)</label>
+<p><input type="text" id="numeros" class="form-control" placeholder="ej. 1,3,5,9..."></p>
+  <label for="usr">Ingresa 1 numero</label>
+<p><input type="text" id="numValidar" class="form-control" placeholder="tres digitos"></p>
+</div>
+<label for="usr">Selecciona Nro de Ejercicio</label>
+<p><select class="form-control" id="ejercicios">
+  <option value="1" >N°1 Multiplicacion de numeros:Metodo Reduce</option>
+  <option value="2" >Ejercicio N°2</option>
+  <option value="3" >Ejercicio N°3</option>
+  <option value="4" >Ejercicio N°4</option>
+  <option value="5" >Ejercicio N°5</option>
+  <option value="6" >Ejercicio N°6</option>
+  <option value="7" >Ejercicio N°7</option>
+</select></p>
+<p><button onclick="obtenerArreglo()" class="btn btn-primary"> Resolver </button></p>
+<div id="resultado"></div>
+<script type="text/javascript" src="ejerciciosArreglos.js"></script>
+</body>
+</html>
